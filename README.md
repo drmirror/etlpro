@@ -13,4 +13,4 @@ Here's a full list:
 * The third solution ([etl_3.py](etl_3.py), [etl_3_batch.py](etl_3_batch.py)) starts by **reading the lookup tables completely into the application's memory**, and then assembles the output documents in a loop over the main source table.
 * The final solution ([etl_co.py](etl_co.py), [etl_co_batch.py](etl_co_batch.py)) introduces the **co-iteration pattern**, which opens all source tables at once, performs a single pass over all of them, and assembles the output documents in the process.
 
-For an actual tool that does all this, and more, in a more generic manner, see John Page's [https://github.com/johnlpage/MongoSyphon](MongoSyphon).
+For an actual tool that does all this, and more, in a more generic manner, see John Page's [MongoSyphon](https://github.com/johnlpage/MongoSyphon).
